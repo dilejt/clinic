@@ -1,0 +1,187 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+nav .navbar-collapse a{
+    color: #0B47D9 !important;
+}
+.loginCard {
+    height: 400px;
+    width: 350px;
+    margin-top: 10%;
+    margin-bottom: auto;
+    background-color: #02aeae;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.loginCard a{
+    color: #0B47D9;
+}
+.loginFormLogoContainer {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background-color: #00a5cb;
+    padding: 10px;
+    text-align: center;
+}
+.loginFormLogo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.formContainer {
+    margin-top: 100px;
+}
+.loginBtn {
+    width: 100%;
+    background-color:#0B83E3;
+    color: white;
+}
+.loginBtn:focus {
+    box-shadow: none;
+    outline: 0px;
+}
+.loginBtnContainer {
+    padding: 0 2rem;
+}
+.loginCard .input-group-text {
+    background-color: #0B83E3 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.input:focus {
+    box-shadow: none;
+    outline: 0px;
+}
+
+/**** index.php ****/
+#banner{
+    background: url("img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    padding-top: 30vh;
+    color: white;
+}
+#banner::before{
+    content: '';
+    display: block;
+    background: #0B83E3;
+    transform: skew(-10deg) translateX(-50%);
+    height: 100%;
+    width: 101%;
+    position: absolute;
+    top: 0;
+    left: 0;   
+}
+#banner::after{
+    content: '';
+    display: block;
+    background: #0B83E3;
+    transform: skew(-10deg);
+    height: 100%;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 52%;
+}
+#banner h2{
+    width: 50%;
+}
+.bannerBtn{
+    color: white;
+    background: #02aeae;
+    width: 45%;
+    height: 4em;
+    margin-top: 1em;
+}
+
+/**** panel.php ****/
+.visitPanel{
+    background-color: #b3ebff;
+    min-height: 100%;
+}
+.visitPanel>.container{
+    padding-top: 70px;
+}
+.visitPanel .border-done{
+    border-color: #02aeae !important;
+}
+.visitPanel .text-done{
+    color: #02aeae !important;
+}
+table>caption{
+    caption-side: top;
+}
+.table td, .table th {
+    border-top: 1px solid #0B83E3;
+}
+.table thead th {
+    border-bottom: 2px solid #0B83E3;
+}
+
+
+/**** register.php ****/
+.registerCard {
+    height: 800px;
+    width: 450px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #02aeae;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.registerCard a{
+    color: #0B47D9;
+}
+.registerFormLogoContainer {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background-color: #00a5cb;
+    padding: 10px;
+    text-align: center;
+}
+.registerFormLogo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.registerBtn {
+    width: 100%;
+    background-color:#0B83E3;
+    color: white;
+}
+.registerBtn:focus {
+    box-shadow: none;
+    outline: 0px;
+}
+.registerBtnContainer {
+    padding: 0 2rem;
+}
+.registerCard .input-group-text {
+    background-color: #0B83E3 !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
